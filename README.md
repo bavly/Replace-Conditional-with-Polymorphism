@@ -1,7 +1,7 @@
 # Replace-Conditional-with-Polymorphism
 
 
-● just to talk about refactoring of code 
+● To talk about refactoring of code 
 
 ● If we have a class full of Male & female students ,they went to pee we want to present that in a code.
   it will be something like that.
