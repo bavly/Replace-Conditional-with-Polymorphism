@@ -12,11 +12,11 @@
 class Human {
   // ...
   String goPee() {
-    switch (typeOfPee) {
+    switch (Pee) {
       case Male:
-        return "He should standup";
+        return "Stand Up";
       case Female:
-        return "She should Sitdown";
+        return "Sit Down";
     }
   }
 }
