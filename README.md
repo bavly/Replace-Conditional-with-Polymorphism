@@ -10,7 +10,6 @@
 
 ```
 class Human {
-  // ...
   String goPee() {
     switch (Pee) {
       case Male:
@@ -33,7 +32,6 @@ class Human {
 
 ```
 abstract class Human {
-  // ...
   abstract String goPee();
 }
 ```
@@ -44,7 +42,6 @@ In this abstract method when you want to use it, you must inherate it from class
 
 ```
 public class Male extends Human{
-...
     @Override
     public String goPee(){
         return ("Stand Up");
