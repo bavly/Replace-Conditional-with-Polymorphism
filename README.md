@@ -53,8 +53,8 @@ public class Male extends Human{
 ```
 public class Female extends Human{
     @Override
-    public void goPee(){
-        System.out.println("Sit Down");
+    public String goPee(){
+        return ("Sit Down");
     }
 }
 ```
